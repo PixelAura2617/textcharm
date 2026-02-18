@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reply Generator</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div class="logo">TextCharm</div>
+    <div class="links">
+        <a href="index.html">Opener</a>
+        <a href="reply.html" class="active">ReplyGenerator</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/privacy.html">Privacy</a>        
+        <a href="pages/blog.html">Blog</a>
+         <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>AI Reply Generator</h1>
+
+    <input type="text" id="incoming" placeholder="Paste their message">
+
+    <button onclick="generateReply()">Generate Reply</button>
+
+    <div id="replyOutput"></div>
+    <button id="copyBtn" onclick="copyReply()">Copy</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
